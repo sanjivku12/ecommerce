@@ -1,0 +1,10 @@
+touch .gitignore
+git config --global user.name "sanjiv kumar"
+git config --global user.email "sanjivku12@gmail.com"
+git init
+git add .
+git commit -m "initital commit"
+git status
+git remote add origin git@github.com:sanjivku12/ecommerce.git
+ssh-keygen -t rsa -b 4096 -C "sanjivku12@gmail.com"
+git push origin master
