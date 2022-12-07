@@ -8,3 +8,11 @@ git status
 git remote add origin git@github.com:sanjivku12/ecommerce.git
 ssh-keygen -t rsa -b 4096 -C "sanjivku12@gmail.com"
 git push origin master
+
+------after any changes.
+
+git status
+git add .
+git commit -m "initital commit"
+git push origin master
+
